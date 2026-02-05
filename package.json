@@ -1,0 +1,24 @@
+{
+  "name": "defi-automation-project",
+  "version": "1.0.0",
+  "description": "A demonstration Node.js project that bundles DeFi automation logic using TypeScript and webpack.",
+  "main": "dist/main.js",
+  "scripts": {
+    "build": "webpack",
+    "start": "node dist/main.js"
+  },
+  "keywords": [
+    "defi",
+    "automation",
+    "typescript",
+    "webpack"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.2.2",
+    "ts-loader": "^9.4.4",
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4"
+  }
+}
